@@ -53,3 +53,11 @@ Estudante de Análise e Desenvolvimento de Sistemas no Centro Universitário Sen
 <div align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Guilherme3578&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Estatísticas do GitHub" />
 </div>
+
+<picture data-importer="pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Guilherme3578/Guilherme3578/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Guilherme3578/Guilherme3578/pacman-output/pacman-contribution-graph.svg?game=pacman">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Guilherme3578/Guilherme3578/pacman-output/pacman-contribution-graph.svg?game=pacman">
+</picture>
+
+###
