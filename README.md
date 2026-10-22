@@ -47,10 +47,3 @@ Estudante de Análise e Desenvolvimento de Sistemas no Centro Universitário Sen
 </p>
 
 ---
-
-### 📊 Estatísticas do GitHub
-
-<div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Guilherme3578&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Estatísticas do GitHub" />
-</div>
-
