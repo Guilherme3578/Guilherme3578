@@ -3,11 +3,11 @@
   <img src="./assets/banner.svg" alt="Banner Guilherme Israel" width="100%"/>
 </p>
 
-<h1 align="center">Hello World, my is Guilherme Israel</h1>
+<h1 align="center">Hello World, my name is Guilherme Israel</h1>
 
 <p align="center">
   <a href="https://github.com/Guilherme3578">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=F2C14E&center=true&vCenter=true&width=600&lines=Desenvolvedor+Full+Stack;Java+%2B+Spring+Boot+%E2%98%95;React+%7C+Angular+%7C+TypeScript;Python+%2B+FastAPI+%F0%9F%90%8D;Transformando+caf%C3%A9+em+c%C3%B3digo" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=F2C14E&center=true&vCenter=true&width=600&lines=Desenvolvedor+Full+Stack;Java+%2B+Spring+Boot+%E2%98%95;React+%7C+Angular+%7C+TypeScript;Python+%2B+FastAPI;APIs+REST+%E2%80%A2+Arquitetura+%E2%80%A2+Dados" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -17,7 +17,7 @@
 
 ---
 
-🌟 Sou desenvolvedor **Full Stack** e gosto de construir sistemas completos: da modelagem do banco e da API REST até a interface que o usuário final toca. Hoje meu foco principal é **Java + Spring Boot** no back-end e **React / Angular** no front-end, sempre explorando novas ferramentas como **Python, FastAPI e IA**. 🚀
+Desenvolvedor **Full Stack** e estudante de **Análise e Desenvolvimento de Sistemas** no **Centro Universitário Senac Nações Unidas**. Atuo no desenvolvimento de aplicações web de ponta a ponta, da modelagem de dados e construção de APIs REST à implementação de interfaces. Meu foco principal é o ecossistema **Java / Spring Boot** no back-end e **React** e **Angular** com **TypeScript** no front-end, complementado por **Python**, **FastAPI** e estudos em **Inteligência Artificial**.
 
 ## 💫 Sobre mim
 
@@ -25,19 +25,18 @@
 <tr>
 <td width="58%" valign="top">
 
-- 🎓 Estudante de **Análise e Desenvolvimento de Sistemas** no **Centro Universitário Senac Nações Unidas**
-- 🔭 Atualmente desenvolvendo sistemas de **agendamento, PDV e finanças** de ponta a ponta
-- 🌱 Aprendendo cada dia mais sobre **arquitetura de software, segurança (JWT) e IA/LLMs**
-- 👯 Aberto a colaborar em projetos **open source** e freelas
-- 💬 Pode me perguntar sobre **Spring Boot, React, Angular, APIs REST e bancos SQL**
-- ⚡ Curiosidade: já integrei **Power BI** com uma API própria só pra ver gráfico bonito 📊
-- ✨ Gosto de código limpo, interface caprichada e coisa funcionando de verdade
+- **Formação:** Análise e Desenvolvimento de Sistemas, Centro Universitário Senac Nações Unidas
+- **Atuação:** sistemas de gestão para agendamento, ponto de venda, controle de estoque e finanças
+- **Back-end:** APIs REST com Spring Boot e Spring Security (JWT), Node.js com Express e Prisma, e FastAPI
+- **Front-end:** aplicações SPA em React e Angular, com componentização e integração com APIs
+- **Dados:** modelagem relacional em MySQL e PostgreSQL, migrações de schema e integração com Power BI para análise
+- **Estudos atuais:** arquitetura de software, segurança de aplicações e soluções com LLMs
+- **Princípios:** código limpo, manutenibilidade e software orientado a problemas reais
 
-### 📫 Me encontre em
+### 📫 Contato
 
 <a href="https://www.linkedin.com/in/guilhermeisrael"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://portifoliodevgui-theta.vercel.app"><img src="https://img.shields.io/badge/Portf%C3%B3lio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"/></a>
-<a href="https://github.com/Guilherme3578"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="mailto:guilhermeisrael03@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
 
 </td>
 <td width="42%" align="center">
@@ -46,7 +45,7 @@
 </tr>
 </table>
 
-## 💻 Linguagens & ferramentas que já coloquei a mão
+## 💻 Linguagens e Ferramentas
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -88,7 +87,6 @@
 | 🛒 **[Estoque & PDV](https://github.com/Guilherme3578/Estoque_PDV)** | Gestão de estoque, ponto de venda e dashboard de relatórios com autenticação JWT | Spring Boot 3.5 · Angular 19 · Tailwind |
 | 🌀 **[Vortex](https://github.com/Guilherme3578/Vortex)** | Painel de agendamentos para clínica estética com Kanban em tempo real | Node · Express · Prisma · React · Socket.IO |
 | 💰 **[Finanças Pessoais](https://github.com/Guilherme3578/financas_pessoais)** | Receitas, despesas, orçamentos, previsões e integração com Power BI | FastAPI · PostgreSQL · React · Power BI |
-| 🎨 **[Portfólio](https://portifoliodevgui-theta.vercel.app)** | Meu portfólio pessoal | React 19 · TypeScript · Vite · Vercel |
 
 ## 📊 Estatísticas
 
