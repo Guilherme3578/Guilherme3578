@@ -3,7 +3,7 @@
   <img src="./assets/banner.svg" alt="Banner Guilherme Israel" width="100%"/>
 </p>
 
-<h1 align="center">Olá 👋, eu sou o Guilherme Israel</h1>
+<h1 align="center">Hello World, my is Guilherme Israel</h1>
 
 <p align="center">
   <a href="https://github.com/Guilherme3578">
