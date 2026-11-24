@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" font-family="'Courier New', Consolas, monospace">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05060a"/>
+      <stop offset="0.6" stop-color="#11141c"/>
+      <stop offset="1" stop-color="#1c2030"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.85"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" opacity="0.35"/>
+    </pattern>
+    <pattern id="win" width="14" height="18" patternUnits="userSpaceOnUse">
+      <rect x="4" y="5" width="5" height="7" fill="#e8d9a8" opacity="0.55"/>
+    </pattern>
+    <pattern id="winOff" width="14" height="18" patternUnits="userSpaceOnUse">
+      <rect x="4" y="5" width="5" height="7" fill="#3a3f50" opacity="0.7"/>
+    </pattern>
+    <style>
+      .tw { animation: tw 3s ease-in-out infinite; }
+      .tw2 { animation: tw 4.5s ease-in-out infinite 1s; }
+      .tw3 { animation: tw 2.2s ease-in-out infinite .5s; }
+      @keyframes tw { 0%,100% { opacity: .15 } 50% { opacity: 1 } }
+      .blink { animation: bl 1s steps(1) infinite; }
+      @keyframes bl { 50% { opacity: 0 } }
+      .flick { animation: fl 7s linear infinite; }
+      @keyframes fl { 0%,92%,100% { opacity: 1 } 93% { opacity: .2 } 95% { opacity: .9 } 96% { opacity: .3 } }
+      .rain line { stroke: #8fa3c7; stroke-width: 1; opacity: .25; }
+      .rain { animation: rain .9s linear infinite; }
+      @keyframes rain { from { transform: translate(0,-60px) } to { transform: translate(-20px,60px) } }
+      .t { fill: #d6dbe6; }
+      .dim { fill: #8a93a8; }
+      .acc { fill: #f2c14e; }
+    </style>
+  </defs>
+
+  <!-- céu -->
+  <rect width="1200" height="400" fill="url(#sky)"/>
+
+  <!-- estrelas -->
+  <g fill="#fff">
+    <rect class="tw" x="80" y="30" width="2" height="2"/>
+    <rect class="tw2" x="210" y="62" width="2" height="2"/>
+    <rect class="tw3" x="340" y="22" width="2" height="2"/>
+    <rect class="tw" x="470" y="48" width="2" height="2"/>
+    <rect class="tw2" x="590" y="18" width="2" height="2"/>
+    <rect class="tw3" x="720" y="56" width="2" height="2"/>
+    <rect class="tw" x="860" y="28" width="2" height="2"/>
+    <rect class="tw2" x="990" y="70" width="2" height="2"/>
+    <rect class="tw3" x="1110" y="36" width="2" height="2"/>
+    <rect class="tw" x="1160" y="90" width="2" height="2"/>
+  </g>
+
+  <!-- lua -->
+  <circle cx="1040" cy="70" r="26" fill="#e9e4d4" opacity="0.85"/>
+  <circle cx="1052" cy="62" r="24" fill="#0a0c12"/>
+
+  <!-- prédios ao fundo -->
+  <g fill="#161a26">
+    <rect x="0" y="190" width="70" height="210"/>
+    <rect x="60" y="150" width="50" height="250"/>
+    <rect x="120" y="210" width="80" height="190"/>
+    <rect x="300" y="170" width="60" height="230"/>
+    <rect x="520" y="200" width="90" height="200"/>
+    <rect x="640" y="160" width="55" height="240"/>
+    <rect x="820" y="185" width="75" height="215"/>
+    <rect x="960" y="140" width="60" height="260"/>
+    <rect x="1100" y="200" width="100" height="200"/>
+  </g>
+
+  <!-- prédios da frente com janelas -->
+  <g>
+    <rect x="20" y="230" width="98" height="170" fill="#0d1018"/>
+    <rect x="20" y="230" width="98" height="170" fill="url(#winOff)"/>
+    <rect x="20" y="248" width="56" height="72" fill="url(#win)" class="flick"/>
+
+    <rect x="180" y="260" width="84" height="140" fill="#0d1018"/>
+    <rect x="180" y="260" width="84" height="140" fill="url(#win)"/>
+
+    <rect x="410" y="220" width="70" height="180" fill="#0d1018"/>
+    <rect x="410" y="220" width="70" height="180" fill="url(#winOff)"/>
+    <rect x="410" y="292" width="70" height="54" fill="url(#win)"/>
+
+    <rect x="700" y="250" width="112" height="150" fill="#0d1018"/>
+    <rect x="700" y="250" width="112" height="150" fill="url(#winOff)"/>
+    <rect x="714" y="268" width="56" height="90" fill="url(#win)" class="flick"/>
+
+    <rect x="900" y="215" width="84" height="185" fill="#0d1018"/>
+    <rect x="900" y="215" width="84" height="185" fill="url(#win)"/>
+    <rect x="938" y="195" width="2" height="20" fill="#3a3f50"/>
+    <circle cx="939" cy="194" r="3" fill="#ff4d4d" class="tw3"/>
+
+    <rect x="1050" y="240" width="98" height="160" fill="#0d1018"/>
+    <rect x="1050" y="240" width="98" height="160" fill="url(#winOff)"/>
+  </g>
+
+  <!-- chuva -->
+  <g class="rain">
+    <line x1="50" y1="0" x2="44" y2="18"/><line x1="160" y1="80" x2="154" y2="98"/>
+    <line x1="260" y1="30" x2="254" y2="48"/><line x1="380" y1="120" x2="374" y2="138"/>
+    <line x1="500" y1="10" x2="494" y2="28"/><line x1="620" y1="100" x2="614" y2="118"/>
+    <line x1="740" y1="40" x2="734" y2="58"/><line x1="860" y1="140" x2="854" y2="158"/>
+    <line x1="980" y1="20" x2="974" y2="38"/><line x1="1100" y1="110" x2="1094" y2="128"/>
+    <line x1="110" y1="220" x2="104" y2="238"/><line x1="330" y1="260" x2="324" y2="278"/>
+    <line x1="560" y1="240" x2="554" y2="258"/><line x1="790" y1="300" x2="784" y2="318"/>
+    <line x1="1020" y1="270" x2="1014" y2="288"/><line x1="1170" y1="230" x2="1164" y2="248"/>
+  </g>
+
+  <rect width="1200" height="400" fill="url(#fade)"/>
+
+  <!-- texto da esquerda -->
+  <g transform="translate(60,232)">
+    <text class="t" font-size="30" font-weight="bold" letter-spacing="4">Guilherme Israel</text>
+    <text class="acc" y="26" font-size="14" letter-spacing="2">// Full Stack Developer</text>
+    <g class="dim" font-size="13">
+      <text y="58">Do banco de dados ao pixel na tela.</text>
+      <text y="76">Uma API por vez, um bug por vez,</text>
+      <text y="94">um café por vez.</text>
+      <text y="112">Construindo coisas que resolvem</text>
+      <text y="130">problemas de gente de verdade.</text>
+    </g>
+  </g>
+
+  <!-- código da direita -->
+  <g transform="translate(860,250)" font-size="14">
+    <text><tspan class="acc">while</tspan><tspan class="t"> (vivo) {</tspan></text>
+    <text y="20" class="t">    cafe++;</text>
+    <text y="40" class="t">    codar();</text>
+    <text y="60" class="t">    aprender();</text>
+    <text y="80" class="t">}</text>
+    <rect x="12" y="86" width="9" height="16" fill="#f2c14e" class="blink"/>
+  </g>
+
+  <text x="1140" y="385" text-anchor="end" font-size="12" class="dim">— Guilherme3578</text>
+
+  <rect width="1200" height="400" fill="url(#scan)"/>
+</svg>
